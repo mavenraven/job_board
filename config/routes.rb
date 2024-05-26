@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :homes
+  root "homes#index"
   resources :jobs
   resources :companies
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
