@@ -7,5 +7,6 @@ class HomesControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
     get "/"
     assert_response :success
+    assert_includes @response.body, "hello"
   end
 end
