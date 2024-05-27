@@ -13,7 +13,7 @@ namespace :db do
       companies << Company.find_or_create_by!(id: i+1) do |c|
         c.name = Faker::Company.name
         c.hq = Faker::Address.full_address
-        c.logo_url = Faker::Company.logo
+        c.logo_url = Faker::Company.logo if [true, true, false].sample
         c.website_url = Faker::Internet.url
         c.email = Faker::Internet.email
         c.description = Faker::Lorem.paragraph(sentence_count: 10)
