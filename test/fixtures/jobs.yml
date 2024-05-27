@@ -17,3 +17,14 @@ two:
   contact: MyString
   description: MyText
   company: two
+
+
+maint_tech:
+  title: Maintenance Technician
+  category: Controls Engineer
+  salary_range: 75000
+  employment_type: Full Time
+  contact: hello@hello.com
+  description: Are you ready to make a difference?
+  company: castor
+

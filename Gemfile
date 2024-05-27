@@ -62,6 +62,7 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
    gem 'guard-livereload', '~> 2.5', require: false
+   gem 'pry'
 end
 
 group :test do

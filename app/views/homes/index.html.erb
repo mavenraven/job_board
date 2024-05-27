@@ -1,6 +1,6 @@
 <div class="flex flex-col pt-16 items-center">
   <h1 class="text-8xl text-gray-900 font-bold t-medium tracking-tighter text-center uppercase">Robocruit</h1>
-  <h2 class="text-3xl text-gray-600 font-semibold tracking-tight pt-4">The Easiest Way to Land Your Next Automation Job.</h2>
+  <h2 class="text-3xl text-gray-800 font-semibold tracking-tight pt-4">The Easiest Way to Land Your Next Automation Job.</h2>
   <div class="pt-12">
     <button class="text-2xl font-semibold border-gray-900 border-2 p-3 rounded-lg">Post a Job</button>
   </div>
@@ -8,21 +8,21 @@
     <div class="flex flex-col pt-28 min-w-[48rem] gap-4">
       <% @jobs.each do |j| %>
         <a href=<%= job_path(j) %>>
-             <div class="flex justify-between items-center bg-gray-100 p-4">
-          <div class="flex items-center gap-7">
-            <div><img src="https://we-work-remotely.imgix.net/logos/0084/0935/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress"></div>
-            <div class="">
-              <h3 class="text-gray-800"><%= j.company.name %></h3>
-              <h3 class="font-semibold"><%= j.title %></h3>
-              <h3 class="text-gray-800"><%= j.employment_type %></h3>
+          <div class="flex justify-between items-center bg-gray-100 hover:bg-gray-200 p-4">
+            <div class="flex items-center gap-7">
+              <div><img src="https://we-work-remotely.imgix.net/logos/0084/0935/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress"></div>
+              <div class="">
+                <h3 class="text-gray-800"><%= j.company.name %></h3>
+                <h3 class="font-semibold"><%= j.title %></h3>
+                <h3 class="text-gray-800"><%= j.employment_type %></h3>
+              </div>
+            </div>
+            <div>
+              <%= j.created_at.strftime("%b %d") %>
             </div>
           </div>
-          <div>
-            May 26
-          </div>
-        </div>
         </a>
       <% end %>
-      </div>
+    </div>
   <% end %>
-  </div>
+</div>
