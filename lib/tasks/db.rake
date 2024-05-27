@@ -10,34 +10,25 @@ namespace :db do
 
     companies = []
     args[:num_companies].times do |i|
-      companies << Company.upsert(
-        {
-          id: i + 1,
-          name: Faker::Company.name,
-          hq: Faker::Address.full_address,
-          logo_url: Faker::Company.logo,
-          website_url: Faker::Internet.url,
-          email: Faker::Internet.email,
-          description: Faker::Lorem.paragraph(sentence_count: 10)
-        }, unique_by: :id
-      )
+      companies << Company.find_or_create_by!(id: i+1) do |c|
+        c.name = Faker::Company.name
+        c.hq = Faker::Address.full_address
+        c.logo_url = Faker::Company.logo
+        c.website_url = Faker::Internet.url
+        c.email = Faker::Internet.email
+        c.description = Faker::Lorem.paragraph(sentence_count: 10)
+      end
     end
 
     args[:num_jobs].times do |i|
-    c = companies.sample
-    #Job.upsert(
-    #  {
-    #    id: i + 1,
-    #    category: "TODO",
-    #    contact: Faker::Internet.email,
-    #    description: Faker::Lorem.paragraph(sentence_count: 10),
-    #    employment_type: "Full",
-#        salary_range: "75,000",
-    #    title: Faker::Job.title,
-    #    created_at: Faker::Date.
-#
-#      }
-#    )
+      job = Job.find_or_create_by!(id: i+1) do |j|
+        j.contact = Faker::Internet.email
+        j.description = Faker::Lorem.paragraph(sentence_count: 30)
+        j.employment_type = "Full"
+        j.salary_range = "TODO"
+        j.title = Faker::Job.title
+        j.company = companies.sample
+      end
     end
   end
 end
