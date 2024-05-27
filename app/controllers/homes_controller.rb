@@ -4,7 +4,5 @@ class HomesController < ApplicationController
   end
 
   def show
-
   end
-
 end

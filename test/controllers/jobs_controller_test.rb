@@ -2,7 +2,7 @@ require "test_helper"
 
 class JobsControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @job = jobs(:one)
+    @job = jobs(:maint_tech)
   end
 
   test "should get index" do
