@@ -28,6 +28,7 @@ namespace :db do
         j.salary_range = "TODO"
         j.title = Faker::Job.title
         j.company = companies.sample
+        j.created_at = Faker::Date.backward(days: 10)
       end
     end
   end

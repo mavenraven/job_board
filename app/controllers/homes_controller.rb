@@ -1,6 +1,7 @@
 class HomesController < ApplicationController
+  include Pagy::Backend
   def index
-    @jobs = Job.all.order(created_at: :desc)
+    @pagy, @jobs = pagy(Job.all.order(created_at: :desc))
   end
 
   def show
