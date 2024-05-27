@@ -30,7 +30,6 @@ pollux:
 gemini:
   name: Gemini Engineering
   hq: Raleigh, NC
-  logo_url: https://we-work-remotely.imgix.net/logos/0024/0355/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress
   website_url: https://www.geminieng.com/
   email: support@geminieng.com
   description: >
