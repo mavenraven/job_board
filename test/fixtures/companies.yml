@@ -39,5 +39,133 @@ gemini:
     boost productivity. Depend on us to innovatively enhance
     your manufacturing operations.
 
+aries:
+  name: Aries Tech Solutions
+  hq: Denver, CO
+  logo_url: https://we-work-remotely.imgix.net/logos/0094/2341/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress
+  website_url: https://www.ariestechsol.com/
+  email: info@ariestechsol.com
+  description: >
+    At Aries Tech Solutions, we are pioneers in integrating smart
+    technology into manufacturing systems. Our team offers
+    personalized solutions that improve operational processes,
+    decrease overheads, and boost overall output. Trust in our
+    innovative approaches to refine your production environment.
 
+taurus:
+  name: Taurus Industries
+  hq: Seattle, WA
+  logo_url: https://we-work-remotely.imgix.net/logos/0104/7654/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress
+  website_url: https://www.taurusind.com/
+  email: sales@taurusind.com
+  description: >
+    Taurus Industries excels in delivering advanced industrial
+    automation solutions. Our dedicated team focuses on
+    customizing strategies that heighten efficiency, curtail costs,
+    and amplify production. Your manufacturing processes are
+    bound to evolve with our cutting-edge technologies.
+
+leo:
+  name: Leo Fabrication Co.
+  hq: Columbus, OH
+  website_url: https://www.leofabco.com/
+  email: support@leofabco.com
+  description: >
+    Leo Fabrication Co. specializes in enhancing factory workflows
+    through innovative automation and precise technology. Our
+    professionals are adept at providing strategies that boost
+    efficiency, reduce operational costs, and increase output
+    capacity. Let us transform your production lines with our
+    advanced solutions.
+
+virgo:
+  name: Virgo Systems
+  hq: Phoenix, AZ
+  logo_url: https://we-work-remotely.imgix.net/logos/0114/2853/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress
+  website_url: https://www.virgosys.com/
+  email: contact@virgosys.com
+  description: >
+    Virgo Systems leads the way in industrial automation by
+    offering tailored solutions that streamline manufacturing
+    processes. Our expertise in cutting-edge technology ensures
+    operational excellence, cost reduction, and enhanced
+    production quality. Partner with us for transformative
+    advancements in your production lines.
+
+libra:
+  name: Libra Tech Ventures
+  hq: Minneapolis, MN
+  logo_url: https://we-work-remotely.imgix.net/logos/0124/6051/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress
+  website_url: https://www.libratechventures.com/
+  email: service@libratechventures.com
+  description: >
+    Libra Tech Ventures focuses on custom automation solutions to
+    revolutionize manufacturing processes. Our experienced team
+    crafts strategies to increase efficiency, lower costs, and
+    heighten production rates. Depend on our innovative approach
+    to elevate your operational capabilities.
+
+scorpio:
+  name: Scorpio Engineering
+  hq: Atlanta, GA
+  website_url: https://www.scorpioeng.com/
+  email: solutions@scorpioeng.com
+  description: >
+    Scorpio Engineering is dedicated to refining production
+    technologies through automation. We provide bespoke solutions
+    that enhance operational efficiency, reduce expenses, and
+    boost productivity. Trust our experts to innovate and
+    transform your manufacturing landscape.
+
+sagittarius:
+  name: Sagittarius Systems
+  hq: Salt Lake City, UT
+  logo_url: https://we-work-remotely.imgix.net/logos/0134/7260/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress
+  website_url: https://www.sagittariussys.com/
+  email: inquiries@sagittariussys.com
+  description: >
+    Sagittarius Systems excels in the application of advanced
+    automation to optimize manufacturing efficiency. Our skilled
+    professionals develop solutions tailored to enhance your
+    operational processes, minimize costs, and maximize output.
+    Choose us for cutting-edge improvements in your production
+    systems.
+
+capricorn:
+  name: Capricorn Dynamics
+  hq: Omaha, NE
+  website_url: https://www.capricorndyn.com/
+  email: help@capricorndyn.com
+  description: >
+    At Capricorn Dynamics, we specialize in the deployment of
+    innovative automation technologies for manufacturing sectors.
+    Our team is committed to enhancing efficiency, reducing
+    operational costs, and increasing production with precise
+    solutions tailored to your needs.
+
+aquarius:
+  name: Aquarius Innovations
+  hq: Boston, MA
+  logo_url: https://we-work-remotely.imgix.net/logos/0144/8470/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress
+  website_url: https://www.aquariusinnovations.com/
+  email: contact@aquariusinnovations.com
+  description: >
+    Aquarius Innovations leads in crafting bespoke automation
+    solutions that streamline manufacturing operations. Our
+    approach is focused on enhancing efficiency, cutting costs,
+    and boosting productivity through state-of-the-art technology.
+    Trust us to innovate your production processes.
+
+pisces:
+  name: Pisces Industrial
+  hq: Kansas City, MO
+  logo_url: https://we-work-remotely.imgix.net/logos/0154/9680/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress
+  website_url: https://www.piscesindustrial.com/
+  email: support@piscesindustrial.com
+  description: >
+    Pisces Industrial is at the forefront of integrating
+    technology into manufacturing workflows. Our experts deliver
+    solutions that enhance operational efficiency, reduce costs,
+    and improve production output. Rely on us for innovative and
+    efficient manufacturing strategies.
 
