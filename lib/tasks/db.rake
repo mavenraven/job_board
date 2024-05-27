@@ -25,12 +25,19 @@ namespace :db do
 
     args[:num_jobs].times do |i|
     c = companies.sample
-    Job.upsert(
-      {
-        id: i + 1,
-
-      }
-    )
+    #Job.upsert(
+    #  {
+    #    id: i + 1,
+    #    category: "TODO",
+    #    contact: Faker::Internet.email,
+    #    description: Faker::Lorem.paragraph(sentence_count: 10),
+    #    employment_type: "Full",
+#        salary_range: "75,000",
+    #    title: Faker::Job.title,
+    #    created_at: Faker::Date.
+#
+#      }
+#    )
     end
   end
 end
