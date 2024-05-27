@@ -15,3 +15,46 @@ two:
   website_url: MyString
   email: MyString
   description: MyText
+
+castor:
+  name: Castor Consulting
+  hq: Troy, MI
+  logo_url: https://we-work-remotely.imgix.net/logos/0084/0935/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress
+  website_url: https://www.castoreng.com/
+  email: jobs@castoreng.com
+  description: >
+    We specialize in optimizing your manufacturing processes
+    through cutting-edge industrial automation solutions.
+    Our expert team is dedicated to delivering customized
+    strategies that enhance efficiency, reduce costs, and increase
+    productivity. Trust us to transform your operations
+    with precision and innovation.
+
+pollux:
+  name: Pollux Solutions
+  hq: Austin, TX
+  logo_url: https://we-work-remotely.imgix.net/logos/0012/0071/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress
+  website_url: https://www.polluxsol.com/
+  email: contact@polluxsol.com
+  description: >
+    Our mission is to revolutionize your production lines with
+    advanced automation technology. Our skilled team provides
+    tailored solutions that boost operational efficiency,
+    minimize expenses, and elevate output. Rely on us for
+    sophisticated and precise enhancements to your workflow.
+
+gemini:
+  name: Gemini Engineering
+  hq: Raleigh, NC
+  logo_url: https://we-work-remotely.imgix.net/logos/0024/0355/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress
+  website_url: https://www.geminieng.com/
+  email: support@geminieng.com
+  description: >
+    We excel in refining industrial processes with state-of-the-art
+    automation technologies. Our experts are committed to crafting
+    bespoke strategies that elevate efficiency, slash costs, and
+    boost productivity. Depend on us to innovatively enhance
+    your manufacturing operations.
+
+
+
