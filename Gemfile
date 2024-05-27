@@ -63,6 +63,8 @@ group :development do
   # gem "spring"
    gem 'guard-livereload', '~> 2.5', require: false
    gem 'pry'
+   gem 'faker'
+   gem 'annotaterb'
 end
 
 group :test do

@@ -1,4 +1,26 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# == Schema Information
+#
+# Table name: jobs
+#
+#  id              :integer          not null, primary key
+#  category        :string
+#  contact         :string
+#  description     :text
+#  employment_type :string
+#  salary_range    :string
+#  title           :string
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#  company_id      :integer          not null
+#
+# Indexes
+#
+#  index_jobs_on_company_id  (company_id)
+#
+# Foreign Keys
+#
+#  company_id  (company_id => companies.id)
+#
 
 maint_tech:
   title: Maintenance Technician
@@ -6,7 +28,7 @@ maint_tech:
   salary_range: 75000
   employment_type: Full Time
   contact: hello@hello.com
-  description: Are you ready to make a difference?
+  description:
   company: castor
 
 plc_programmer:
@@ -15,7 +37,7 @@ plc_programmer:
   salary_range: 75000
   employment_type: Contract
   contact: hello@hello.com
-  description: Are you ready to make a difference?
+  description:
   company: pollux
 
 plc_programmer_2:
@@ -24,5 +46,5 @@ plc_programmer_2:
   salary_range: 75000
   employment_type: Contract
   contact: hello@hello.com
-  description: Are you ready to make a difference?
+  description:
   company: gemini
