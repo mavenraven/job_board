@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-        title: ['Roboto', 'sans-serif'],
+        title: ['Paytone One', 'sans-serif'],
       },
     },
   },
