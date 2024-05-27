@@ -7,15 +7,15 @@
     </div>
   </div>
   <% if @jobs %>
-    <div class="flex flex-col pt-16 gap-4 min-w-[64rem]">
+    <div class="flex flex-col pt-16 gap-4 max-w-[80rem] items-center">
       <% @jobs.each do |j| %>
         <a href=<%= job_path(j) %>>
-          <div class="flex justify-between items-center bg-gray-100 hover:bg-gray-200 p-4">
+          <div class="flex justify-between min-w-[64rem] items-center bg-gray-100 hover:bg-gray-200 p-4">
             <div class="flex items-center gap-7">
               <% if not j.company.logo_url.blank? %>
                 <img src="https://we-work-remotely.imgix.net/logos/0084/0935/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress">
               <% else %>
-                <div class="w-[100px] h-[100px] flex justify-center items-center text-4xl font-medium text-gray-800 bg-blue-400">
+                <div class="w-[100px] h-[100px] flex justify-center items-center text-4xl font-bold text-gray-800 bg-blue-500">
                   <% if j.company.name.split(" ").length >= 2 %>
                   <div><%= j.company.name.split(" ")[0][0] %><%= j.company.name.split(" ")[1][0] %></div>
                     <% else %>
