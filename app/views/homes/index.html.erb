@@ -12,7 +12,17 @@
         <a href=<%= job_path(j) %>>
           <div class="flex justify-between items-center bg-gray-100 hover:bg-gray-200 p-4">
             <div class="flex items-center gap-7">
-              <div><img src="https://we-work-remotely.imgix.net/logos/0084/0935/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress"></div>
+              <% if not j.company.logo_url.blank? %>
+                <img src="https://we-work-remotely.imgix.net/logos/0084/0935/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress">
+              <% else %>
+                <div class="w-[100px] h-[100px] flex justify-center items-center text-4xl font-medium text-gray-800 bg-blue-400">
+                  <% if j.company.name.split(" ").length >= 2 %>
+                  <div><%= j.company.name.split(" ")[0][0] %><%= j.company.name.split(" ")[1][0] %></div>
+                    <% else %>
+                    <div><%= j.company.name.split(" ")[0][0] %></div>
+                  <% end %>
+                </div>
+              <% end %>
               <div class="">
                 <h3 class="font-semibold"><%= j.title %></h3>
                 <h3 class="text-gray-800"><%= j.company.name %></h3>
