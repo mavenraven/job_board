@@ -6,7 +6,7 @@
 #  category        :string
 #  contact         :string
 #  description     :text
-#  employment_type :string
+#  employment_type :integer
 #  salary_range    :string
 #  title           :string
 #  created_at      :datetime         not null
@@ -22,5 +22,10 @@
 #  company_id  (company_id => companies.id)
 #
 class Job < ApplicationRecord
+  enum employment_type: {
+    full_time: 1,
+    contract: 2,
+  }
+
   belongs_to :company
 end

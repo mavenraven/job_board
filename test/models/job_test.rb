@@ -6,7 +6,7 @@
 #  category        :string
 #  contact         :string
 #  description     :text
-#  employment_type :string
+#  employment_type :integer
 #  salary_range    :string
 #  title           :string
 #  created_at      :datetime         not null

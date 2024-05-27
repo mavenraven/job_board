@@ -24,7 +24,7 @@ namespace :db do
       job = Job.find_or_create_by!(id: i+1) do |j|
         j.contact = Faker::Internet.email
         j.description = Faker::Lorem.paragraph(sentence_count: 30)
-        j.employment_type = "Full"
+        j.employment_type = "full_time"
         j.salary_range = "TODO"
         j.title = Faker::Job.title
         j.company = companies.sample
