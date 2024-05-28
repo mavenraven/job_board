@@ -1,5 +1,5 @@
 <div class="flex flex-col">
-  <div class="flex flex-col pt-24 items-center min-w-max bg-blue-50 pb-40">
+  <div class="flex flex-col pt-24 items-center min-w-max bg-blue-200 pb-40" style="background-image: url('https://www.transparenttextures.com/patterns/bright-squares.png');">
     <h1 class="text-9xl font-title text-black font-medium t-medium tracking-tight text-center uppercase">Robocruiter</h1>
     <h2 class="text-2xl text-gray-800 font-medium tracking-tighter pt-4">The Easiest Way to Land Your Next Automation Job.</h2>
     <div class="pt-12">
@@ -14,9 +14,9 @@
         </form>
       </div>
       <div class="flex flex-col items-center bg-white " style="box-shadow: -10px 10px 0px 4px rgb(0 0 0 )">
-        <% @jobs.each do |j| %>
+        <% @jobs.each_with_index do |j, i| %>
           <a href=<%= job_path(j) %>>
-            <div class="flex justify-between min-w-[64rem] items-center  hover:bg-gray-100  p-4">
+            <div class="flex justify-between min-w-[64rem] items-center  hover:bg-gray-100  p-4 border-gray-800 border-t border-x <%= "border-b" if i == @jobs.length - 1 %>">
               <div class="flex items-center gap-7">
                 <% if not j.company.logo_url.blank? %>
                   <% #TODO: don't hardcode to 100 to 100 px %>
