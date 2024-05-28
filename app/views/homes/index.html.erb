@@ -34,7 +34,11 @@
                 <div class="">
                   <h3 class="font-semibold pb-3"><%= j.title %></h3>
                   <h3 class="text-gray-800"><%= j.company.name %></h3>
-                  <h3 class="text-gray-800"><%= j.employment_type %></h3>
+                  <% if j.hourly? %>
+                    <h3 class="text-gray-800">Hourly</h3>
+                  <% else %>
+                    <h3 class="text-gray-800">Full Time</h3>
+                  <% end %>
                 </div>
               </div>
               <div>
