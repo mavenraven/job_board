@@ -3,19 +3,26 @@
 
     <div class="bg-white min-w-[90%]">
       <div class="p-8">
-        <div class="flex justify-between">
-          <div class="pr-20">
-        <h1 class="text-3xl text-black font-semibold pb-3 tracking-tighter"><%= @job.title %></h1>
-        <h1 class="text-2xl text-gray-800 font-medium tracking-tighter"><%= @job.company.name %></h1>
+        <div class="">
+          <div class="float-right pl-24 pb-12">
+            <div class="border px-8 py-8 flex flex-col items-center border-black max-w-72 min-w-"  style="box-shadow: -10px 10px 0px 4px rgb(0 0 0 )">
+              <img height="100" width="100" src="<%= @job.company.logo_url %>" />
+              <h3 class="pt-10 text-lg tracking-tighter font-medium text-center"><%= @job.company.name %></h3>
+              <h3 class="pt-1 text-sm tracking-tighter text-center"><%= @job.company.city %>, <%= @job.company.state %></h3>
+              <a class="pt-1 underline tracking-tight" style="color: #0000FF" href="<%= @job.company.website_url %>">website</a>
+            </div>
           </div>
-          <div class="border p-10 flex flex-col items-center border-black max-w-72"  style="box-shadow: -10px 10px 0px 4px rgb(0 0 0 )">
-            <img height="100" width="100" src="<%= @job.company.logo_url %>" />
-            <h3 class="pt-12 text-l tracking-tighter font-medium"><%= @job.company.name %></h3>
-            <h3 class="pt-1 tracking-tighter"><%= @job.company.city %>, <%= @job.company.state %></h3>
-            <a class="pt-1 underline tracking-tight" style="color: #0000FF" href="<%= @job.company.website_url %>">website</a>
+          <div class="pr-8 ">
+            <h1 class="text-3xl text-black font-semibold pb-3 tracking-tighter"><%= @job.title %></h1>
+            <h1 class="text-2xl text-gray-800 font-medium tracking-tighter"><%= @job.company.name %></h1>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet eget sit amet tellus cras adipiscing enim eu turpis. Ut ornare lectus sit amet est placerat in egestas erat. Et leo duis ut diam quam. Sed vulputate mi sit amet mauris commodo quis imperdiet. Quis lectus nulla at volutpat diam ut venenatis. Cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Pharetra convallis posuere morbi leo urna molestie at. Vestibulum sed arcu non odio. Nisl purus in mollis nunc sed. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Quam vulputate dignissim suspendisse in est ante in nibh. Vulputate enim nulla aliquet porttitor. Lectus nulla at volutpat diam. Semper quis lectus nulla at volutpat diam ut. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Fringilla phasellus faucibus scelerisque eleifend donec. At volutpat diam ut venenatis tellus in metus vulputate eu. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras.
+
+            Sit amet purus gravida quis blandit turpis cursus in hac. Neque volutpat ac tincidunt vitae semper. Purus sit amet luctus venenatis. Suscipit adipiscing bibendum est ultricies. Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Eu feugiat pretium nibh ipsum consequat nisl vel. Sapien nec sagittis aliquam malesuada. Nulla pharetra diam sit amet nisl suscipit adipiscing. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Viverra maecenas accumsan lacus vel facilisis. Libero id faucibus nisl tincidunt eget nullam. Venenatis cras sed felis eget velit. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Turpis egestas sed tempus urna et pharetra pharetra massa massa. Diam quis enim lobortis scelerisque fermentum dui faucibus. At erat pellentesque adipiscing commodo.
+
+            Vestibulum mattis ullamcorper velit sed ullamcorper morbi. Malesuada proin libero nunc consequat interdum varius sit amet. Commodo elit at imperdiet dui accumsan sit. Sed arcu non odio euismod lacinia at quis risus sed. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis. In massa tempor nec feugiat nisl pretium fusce id. Lacus sed viverra tellus in hac habitasse platea dictumst. Facilisi nullam vehicula ipsum a arcu cursus. Nunc mattis enim ut tellus elementum sagittis vitae et. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Cras semper auctor neque vitae tempus quam pellentesque nec. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt. Morbi tincidunt ornare massa eget egestas purus viverra accumsan in. Eget aliquet nibh praesent tristique magna sit amet purus. Mauris sit amet massa vitae tortor condimentum lacinia quis. Turpis egestas maecenas pharetra convallis posuere morbi leo urna.
           </div>
         </div>
-        <div class="pt-8">
+        <div class="pt-8 clear-both">
           hi
         </div>
       </div>
